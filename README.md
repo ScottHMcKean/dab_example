@@ -44,8 +44,10 @@ You can also run selected code by:
 1. Highlighting the code you want to run
 2. Press `Cmd/Ctrl + Enter` to execute it in the interactive window
 
-## Running Tests
+## Testing
 To run tests using `pytest`, run `pytest` in the terminal.
+
+
 
 ## Code Quality Tools
 
@@ -53,11 +55,6 @@ To run tests using `pytest`, run `pytest` in the terminal.
 To format your code:
 ```bash
 black .
-```
-
-To check if files would be reformatted without actually changing them:
-```bash
-black . --check
 ```
 
 ### Type Checking with MyPy
@@ -70,10 +67,4 @@ mypy src
 To check code style and quality:
 ```bash
 flake8 src
-```
-
-### Running All Checks
-To run all code quality checks at once:
-```bash
-black . --check && flake8 src && mypy src
 ```
