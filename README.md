@@ -31,6 +31,19 @@ To install additional dependencies for development purposes, such as linters or 
 hatch run pip install -r dev-requirements.txt
 ```
 
+## Development
+
+### Interactive Development in Cursor
+To run code interactively in Cursor:
+1. Press `Cmd/Ctrl + I` to open the interactive window
+2. Select the Python interpreter from your Hatch environment
+   - Usually located in `.venv/bin/python` or similar
+3. Write or paste code snippets and press `Shift + Enter` to run them
+
+You can also run selected code by:
+1. Highlighting the code you want to run
+2. Press `Cmd/Ctrl + Enter` to execute it in the interactive window
+
 ## Running Tests
 To run tests using `pytest`, run `pytest` in the terminal.
 

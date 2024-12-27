@@ -3,7 +3,7 @@ from src.transform import prepare_stock_data
 from datetime import datetime, timedelta
 
 # Fetch data for Apple stock
-apple_data = fetch_stock_data("AAPL")
+apple_data = fetch_stock_data("CVX")
 
 # Transform the data
 processed_data = prepare_stock_data(apple_data)
